@@ -139,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Migrations\\20250530003039_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250530003039_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -169,6 +165,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\migrations\\20250530003039_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:migrations\\20250530003039_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -192,7 +192,7 @@
               "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
               "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\HealthController.cs",
               "RelativeToolTip": "Controllers\\HealthController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T16:46:19.015Z",
               "EditorCaption": ""
@@ -206,8 +206,7 @@
               "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
               "RelativeToolTip": "WeatherEmergencyAPI.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-31T16:44:26.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:44:26.033Z"
             },
             {
               "$type": "Document",
@@ -219,8 +218,7 @@
               "RelativeToolTip": "DTOs\\ErrorResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:34:41.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:34:41.772Z"
             },
             {
               "$type": "Document",
@@ -232,8 +230,7 @@
               "RelativeToolTip": "Controllers\\EmergencyContactsController.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAiwKAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:32:54.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:32:54.812Z"
             },
             {
               "$type": "Document",
@@ -245,8 +242,7 @@
               "RelativeToolTip": "Controllers\\LocationsController.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAiwK0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:31:46.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:31:46.485Z"
             },
             {
               "$type": "Document",
@@ -258,8 +254,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAiwE4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:31:08.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:31:08.347Z"
             },
             {
               "$type": "Document",
@@ -271,8 +266,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAiwFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:30:09.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:30:09.292Z"
             },
             {
               "$type": "Document",
@@ -284,8 +278,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAiwIgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:14:46.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:14:46.866Z"
             },
             {
               "$type": "Document",
@@ -297,8 +290,7 @@
               "RelativeToolTip": "Services\\EmergencyContactService.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAiwI4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:26:44.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:26:44.372Z"
             },
             {
               "$type": "Document",
@@ -310,8 +302,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IEmergencyContactService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:25:51.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:25:51.224Z"
             },
             {
               "$type": "Document",
@@ -323,8 +314,7 @@
               "RelativeToolTip": "Services\\LocationService.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAA4wH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:25:11.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:25:11.656Z"
             },
             {
               "$type": "Document",
@@ -336,8 +326,7 @@
               "RelativeToolTip": "Services\\Interfaces\\ILocationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:24:13.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:24:13.383Z"
             },
             {
               "$type": "Document",
@@ -349,8 +338,7 @@
               "RelativeToolTip": "Services\\AuthService.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAcwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:23:23.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:23:23.549Z"
             },
             {
               "$type": "Document",
@@ -362,8 +350,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:22:32.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:22:32.214Z"
             },
             {
               "$type": "Document",
@@ -375,8 +362,7 @@
               "RelativeToolTip": "Utils\\CountryService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAiwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:18:21.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:18:21.048Z"
             },
             {
               "$type": "Document",
@@ -388,8 +374,7 @@
               "RelativeToolTip": "Repositories\\EmergencyContactRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:17:12.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:17:12.224Z"
             },
             {
               "$type": "Document",
@@ -401,8 +386,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IEmergencyContactRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:16:31.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:16:31.209Z"
             },
             {
               "$type": "Document",
@@ -414,8 +398,7 @@
               "RelativeToolTip": "Repositories\\LocationRepositor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:15:42.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:15:42.254Z"
             },
             {
               "$type": "Document",
@@ -427,8 +410,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\ILocationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:14:50.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:14:50.171Z"
             },
             {
               "$type": "Document",
@@ -440,8 +422,7 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:14:03.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:14:03.249Z"
             },
             {
               "$type": "Document",
@@ -453,8 +434,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:13:10.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:13:10.337Z"
             },
             {
               "$type": "Document",
@@ -466,8 +446,7 @@
               "RelativeToolTip": "Repositories\\BaseRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:12:29.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:12:29.141Z"
             },
             {
               "$type": "Document",
@@ -479,8 +458,7 @@
               "RelativeToolTip": "Repositories\\Interfaces\\IBaseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:11:38.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:11:38.861Z"
             },
             {
               "$type": "Document",
@@ -492,8 +470,7 @@
               "RelativeToolTip": "Configurations\\AutoMapperProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:07:43.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:07:43.267Z"
             },
             {
               "$type": "Document",
@@ -505,8 +482,7 @@
               "RelativeToolTip": "DTOs\\EmergencyContact\\EmergencyContactResponseDto.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:06:41.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:06:41.52Z"
             },
             {
               "$type": "Document",
@@ -518,8 +494,7 @@
               "RelativeToolTip": "DTOs\\EmergencyContact\\CreateEmergencyContactDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:05:32.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:05:32.716Z"
             },
             {
               "$type": "Document",
@@ -531,8 +506,7 @@
               "RelativeToolTip": "DTOs\\Location\\CreateLocationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:41:36.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:41:36.193Z"
             },
             {
               "$type": "Document",
@@ -544,8 +518,7 @@
               "RelativeToolTip": "DTOs\\User\\LoginResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:39:08.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:39:08.288Z"
             },
             {
               "$type": "Document",
@@ -557,8 +530,7 @@
               "RelativeToolTip": "DTOs\\Location\\LocationResponseDto.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAYwBEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:42:56.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:42:56.464Z"
             },
             {
               "$type": "Document",
@@ -570,8 +542,7 @@
               "RelativeToolTip": "DTOs\\User\\UserResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:38:37.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:38:37.845Z"
             },
             {
               "$type": "Document",
@@ -583,8 +554,7 @@
               "RelativeToolTip": "DTOs\\User\\UpdatePasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:38:04.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:38:04.835Z"
             },
             {
               "$type": "Document",
@@ -596,8 +566,7 @@
               "RelativeToolTip": "DTOs\\User\\LoginUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:37:22.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:37:22.363Z"
             },
             {
               "$type": "Document",
@@ -609,8 +578,7 @@
               "RelativeToolTip": "DTOs\\Location\\UpdateLocationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:42:30.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:42:30.008Z"
             },
             {
               "$type": "Document",
@@ -622,12 +590,11 @@
               "RelativeToolTip": "DTOs\\User\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:35:39.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:35:39.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "20250530003039_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Migrations\\20250530003039_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250530003039_InitialCreate.cs",
@@ -635,12 +602,11 @@
               "RelativeToolTip": "Migrations\\20250530003039_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:30:39.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:30:39.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "20250530002430_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Migrations\\20250530002430_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250530002430_InitialCreate.cs",
@@ -648,12 +614,11 @@
               "RelativeToolTip": "Migrations\\20250530002430_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:24:30.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:24:30.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -661,12 +626,11 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAiwEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:14:11.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:14:11.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "EmergencyContact.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\EmergencyContact.cs",
               "RelativeDocumentMoniker": "Models\\EmergencyContact.cs",
@@ -674,12 +638,11 @@
               "RelativeToolTip": "Models\\EmergencyContact.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA4wDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:13:10.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:13:10.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\Location.cs",
               "RelativeDocumentMoniker": "Models\\Location.cs",
@@ -687,12 +650,11 @@
               "RelativeToolTip": "Models\\Location.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAcwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:11:55.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:11:55.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -700,12 +662,11 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAACUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:10:53.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:10:53.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -713,21 +674,19 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-30T00:04:31.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T00:04:31.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "WeatherEmergencyAPI",
+              "DocumentIndex": 38,
+              "Title": "WeatherEmergencyAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
               "RelativeDocumentMoniker": "WeatherEmergencyAPI.csproj",
               "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
               "RelativeToolTip": "WeatherEmergencyAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-29T23:50:42.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T23:50:42.906Z"
             }
           ]
         }

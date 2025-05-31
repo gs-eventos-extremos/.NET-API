@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -5,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using WeatherEmergencyAPI.Data;
 using WeatherEmergencyAPI.Configurations;
+using WeatherEmergencyAPI.Middleware;
 using WeatherEmergencyAPI.Repositories;
 using WeatherEmergencyAPI.Repositories.Interfaces;
 using WeatherEmergencyAPI.Services;
@@ -13,6 +15,13 @@ using WeatherEmergencyAPI.Services.Interfaces;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Configurar Rate Limiting
+builder.Services.AddMemoryCache();
+builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
+builder.Services.Configure<ClientRateLimitOptions>(builder.Configuration.GetSection("ClientRateLimiting"));
+builder.Services.AddInMemoryRateLimiting();
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 
 // Configurar Oracle Entity Framework
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -33,6 +42,9 @@ builder.Services.AddScoped<IEmergencyContactRepository, EmergencyContactReposito
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddScoped<IEmergencyContactService, EmergencyContactService>();
+
+// Configurar HttpClient para Weather Service
+builder.Services.AddHttpClient<IWeatherService, WeatherService>();
 
 // Configurar JWT Authentication
 var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtSettings:SecretKey"]!);
@@ -128,6 +140,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Adicionar Rate Limiting ANTES da autenticação
+app.UseIpRateLimiting();
+app.UseClientRateLimiting();
+app.UseCustomRateLimit();
 
 app.UseAuthentication();
 app.UseAuthorization();
