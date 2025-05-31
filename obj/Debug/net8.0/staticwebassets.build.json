@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "pdlkMyq3NF2RgqK8jXk+GlER2IPmvaNXKMTT4Ol9Wao=",
+  "Source": "WeatherEmergencyAPI",
+  "BasePath": "_content/WeatherEmergencyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
