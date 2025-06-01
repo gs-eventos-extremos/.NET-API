@@ -9,5 +9,6 @@ namespace WeatherEmergencyAPI.Services.Interfaces
         Task<List<WeatherAlertDto>> GetWeatherAlertsAsync(double latitude, double longitude);
         Task<WeatherResponseDto> GetCompleteWeatherInfoAsync(double latitude, double longitude);
         Task<CurrentWeatherDto> GetWeatherByLocationIdAsync(int locationId, int userId);
+        Task<(double latitude, double longitude, string formattedAddress)> GetCoordinatesFromAddressAsync(string city, string state, string country);
     }
 }

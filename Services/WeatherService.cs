@@ -242,6 +242,48 @@ namespace WeatherEmergencyAPI.Services
             return await GetCurrentWeatherAsync(location.Latitude, location.Longitude);
         }
 
+        public async Task<(double latitude, double longitude, string formattedAddress)> GetCoordinatesFromAddressAsync(string city, string state, string country)
+        {
+            var cacheKey = $"geocoding_{city}_{state}_{country}".ToLower().Replace(" ", "_");
+
+            if (_cache.TryGetValue(cacheKey, out (double lat, double lon, string addr) cached))
+            {
+                return cached;
+            }
+
+            // Formatar query para a API
+            var query = Uri.EscapeDataString($"{city},{state},{country}");
+            var url = $"http://api.openweathermap.org/geo/1.0/direct?q={query}&limit=1&appid={_apiKey}";
+
+            var response = await _httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var locations = JsonConvert.DeserializeObject<List<dynamic>>(json);
+
+            if (locations == null || locations.Count == 0)
+            {
+                throw new KeyNotFoundException($"Localização não encontrada para: {city}, {state}, {country}");
+            }
+
+            var location = locations[0];
+            double latitude = (double)location.lat;
+            double longitude = (double)location.lon;
+
+            // Construir endereço formatado
+            string locationName = (string)location.name;
+            string locationState = location.state != null ? (string)location.state : state;
+            string locationCountry = (string)location.country;
+            string formattedAddress = $"{locationName}, {locationState}, {locationCountry}";
+
+            var result = (latitude, longitude, formattedAddress);
+
+            // Cache por 24 horas
+            _cache.Set(cacheKey, result, TimeSpan.FromHours(24));
+
+            return result;
+        }
+
         private string GetStateFromCoordinates(double latitude, double longitude)
         {
             // Implementação simplificada - em produção, usar API de geocoding reverso
@@ -254,6 +296,16 @@ namespace WeatherEmergencyAPI.Services
             else if (latitude >= -23.0 && latitude <= -22.0 && longitude >= -44.0 && longitude <= -42.0)
             {
                 return "RJ";
+            }
+            // Para Minas Gerais
+            else if (latitude >= -22.0 && latitude <= -18.0 && longitude >= -47.0 && longitude <= -43.0)
+            {
+                return "MG";
+            }
+            // Para Paraná
+            else if (latitude >= -26.0 && latitude <= -23.0 && longitude >= -54.0 && longitude <= -48.0)
+            {
+                return "PR";
             }
 
             return "BR";
