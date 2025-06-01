@@ -160,3 +160,12 @@ C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\obj\Debug\net8.0\ref\WeatherEm
 C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\Scrutor.dll
 C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\obj\Debug\net8.0\WeatherEmergencyAPI.sourcelink.json
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\AspNetCoreRateLimit.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\MassTransit.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Gustavo\source\repos\WeatherEmergencyAPI\bin\Debug\net8.0\RabbitMQ.Client.dll

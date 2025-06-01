@@ -1,9 +1,11 @@
 using AspNetCoreRateLimit;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using WeatherEmergencyAPI.Consumers;
 using WeatherEmergencyAPI.Data;
 using WeatherEmergencyAPI.Configurations;
 using WeatherEmergencyAPI.Middleware;
@@ -42,9 +44,49 @@ builder.Services.AddScoped<IEmergencyContactRepository, EmergencyContactReposito
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddScoped<IEmergencyContactService, EmergencyContactService>();
+builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 
 // Configurar HttpClient para Weather Service
 builder.Services.AddHttpClient<IWeatherService, WeatherService>();
+
+// Configurar MassTransit e RabbitMQ
+builder.Services.AddMassTransit(x =>
+{
+    // Registrar Consumers
+    x.AddConsumer<UserRegisteredConsumer>();
+    x.AddConsumer<WeatherAlertConsumer>();
+    x.AddConsumer<LogEventConsumer>();
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+        var rabbitMQConfig = builder.Configuration.GetSection("RabbitMQ");
+
+        cfg.Host(rabbitMQConfig["Host"], Convert.ToUInt16(rabbitMQConfig["Port"]), rabbitMQConfig["VirtualHost"], h =>
+        {
+            h.Username(rabbitMQConfig["Username"]);
+            h.Password(rabbitMQConfig["Password"]);
+        });
+
+        // Configurar endpoints para cada consumer
+        cfg.ReceiveEndpoint("user-registered-queue", e =>
+        {
+            e.ConfigureConsumer<UserRegisteredConsumer>(context);
+        });
+
+        cfg.ReceiveEndpoint("weather-alert-queue", e =>
+        {
+            e.ConfigureConsumer<WeatherAlertConsumer>(context);
+        });
+
+        cfg.ReceiveEndpoint("log-event-queue", e =>
+        {
+            e.ConfigureConsumer<LogEventConsumer>(context);
+        });
+
+        // Configurar retry policy
+        cfg.UseMessageRetry(r => r.Intervals(100, 200, 500, 800, 1000));
+    });
+});
 
 // Configurar JWT Authentication
 var key = Encoding.ASCII.GetBytes(builder.Configuration["JwtSettings:SecretKey"]!);
@@ -80,7 +122,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "Weather Emergency API",
         Version = "v1",
-        Description = "API para gerenciamento de alertas climáticos e contatos de emergência",
+        Description = "API para gerenciamento de alertas climáticos e contatos de emergência com RabbitMQ",
         Contact = new OpenApiContact
         {
             Name = "Seu Nome",

@@ -12,19 +12,13 @@ namespace WeatherEmergencyAPI.Controllers
     {
         private readonly IOptions<IpRateLimitOptions> _ipOptions;
         private readonly IOptions<ClientRateLimitOptions> _clientOptions;
-        private readonly IIpPolicyStore _ipPolicyStore;
-        private readonly IClientPolicyStore _clientPolicyStore;
 
         public RateLimitController(
             IOptions<IpRateLimitOptions> ipOptions,
-            IOptions<ClientRateLimitOptions> clientOptions,
-            IIpPolicyStore ipPolicyStore,
-            IClientPolicyStore clientPolicyStore)
+            IOptions<ClientRateLimitOptions> clientOptions)
         {
             _ipOptions = ipOptions;
             _clientOptions = clientOptions;
-            _ipPolicyStore = ipPolicyStore;
-            _clientPolicyStore = clientPolicyStore;
         }
 
         /// <summary>
@@ -72,15 +66,18 @@ namespace WeatherEmergencyAPI.Controllers
                 IpRateLimiting = new
                 {
                     GeneralRules = _ipOptions.Value.GeneralRules,
-                    SpecificRules = _ipOptions.Value.SpecificRules,
-                    EnableEndpointRateLimiting = _ipOptions.Value.EnableEndpointRateLimiting
+                    EnableEndpointRateLimiting = _ipOptions.Value.EnableEndpointRateLimiting,
+                    HttpStatusCode = _ipOptions.Value.HttpStatusCode,
+                    RealIpHeader = _ipOptions.Value.RealIpHeader
                 },
                 ClientRateLimiting = new
                 {
                     GeneralRules = _clientOptions.Value.GeneralRules,
-                    SpecificRules = _clientOptions.Value.SpecificRules,
-                    EnableEndpointRateLimiting = _clientOptions.Value.EnableEndpointRateLimiting
-                }
+                    EnableEndpointRateLimiting = _clientOptions.Value.EnableEndpointRateLimiting,
+                    HttpStatusCode = _clientOptions.Value.HttpStatusCode,
+                    ClientIdHeader = _clientOptions.Value.ClientIdHeader
+                },
+                Info = "As regras específicas estão configuradas no appsettings.json"
             };
 
             return Ok(rules);

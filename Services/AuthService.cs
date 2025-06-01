@@ -15,12 +15,18 @@ namespace WeatherEmergencyAPI.Services
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
+        private readonly IMessageBusService _messageBusService;
 
-        public AuthService(IUserRepository userRepository, IMapper mapper, IConfiguration configuration)
+        public AuthService(
+            IUserRepository userRepository,
+            IMapper mapper,
+            IConfiguration configuration,
+            IMessageBusService messageBusService)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _configuration = configuration;
+            _messageBusService = messageBusService;
         }
 
         public async Task<UserResponseDto> RegisterAsync(CreateUserDto createUserDto)
@@ -38,6 +44,10 @@ namespace WeatherEmergencyAPI.Services
             user.IsActive = true;
 
             var createdUser = await _userRepository.AddAsync(user);
+
+            // Publicar mensagem no RabbitMQ
+            await _messageBusService.PublishUserRegistered(createdUser.Id, createdUser.Email, createdUser.Name);
+
             var userResponse = _mapper.Map<UserResponseDto>(createdUser);
 
             // Adicionar HATEOAS links

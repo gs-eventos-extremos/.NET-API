@@ -3,16 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\messagebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\messagebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\interfaces\\imessagebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\interfaces\\imessagebusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\consumers\\logeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:consumers\\logeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\consumers\\weatheralertconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:consumers\\weatheralertconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\consumers\\userregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:consumers\\userregisteredconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\weatheremergencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:weatheremergencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\messages\\logeventmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:messages\\logeventmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\messages\\weatheralertmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:messages\\weatheralertmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\messages\\userregisteredmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:messages\\userregisteredmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\controllers\\ratelimitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:controllers\\ratelimitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\ratelimitstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\ratelimitstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\middleware\\ratelimitmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:middleware\\ratelimitmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\weather\\weatherresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\weather\\weatherresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\weather\\weatheralertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\weather\\weatheralertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\weather\\weatherforecastdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\weather\\weatherforecastdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\weather\\currentweatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\weather\\currentweatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\dtos\\weather\\weatherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:dtos\\weather\\weatherrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\weatheremergencyapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:weatheremergencyapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\interfaces\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\interfaces\\ilocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -155,14 +239,6 @@
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\weatheremergencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:weatheremergencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|c:\\users\\gustavo\\source\\repos\\weatheremergencyapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B17D0376-D2F1-495D-8E08-5065A1217268}|WeatherEmergencyAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,7 +254,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,7 +262,297 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageBusService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\MessageBusService.cs",
+              "RelativeDocumentMoniker": "Services\\MessageBusService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\MessageBusService.cs",
+              "RelativeToolTip": "Services\\MessageBusService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:30:27.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMessageBusService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IMessageBusService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMessageBusService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IMessageBusService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMessageBusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:29:52.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\LogEventConsumer.cs",
+              "RelativeDocumentMoniker": "Consumers\\LogEventConsumer.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\LogEventConsumer.cs",
+              "RelativeToolTip": "Consumers\\LogEventConsumer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:28:51.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherAlertConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\WeatherAlertConsumer.cs",
+              "RelativeDocumentMoniker": "Consumers\\WeatherAlertConsumer.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\WeatherAlertConsumer.cs",
+              "RelativeToolTip": "Consumers\\WeatherAlertConsumer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:28:20.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:23:23.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAiwMMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T00:14:46.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegisteredConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\UserRegisteredConsumer.cs",
+              "RelativeDocumentMoniker": "Consumers\\UserRegisteredConsumer.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Consumers\\UserRegisteredConsumer.cs",
+              "RelativeToolTip": "Consumers\\UserRegisteredConsumer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:27:49.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogEventMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\LogEventMessage.cs",
+              "RelativeDocumentMoniker": "Messages\\LogEventMessage.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\LogEventMessage.cs",
+              "RelativeToolTip": "Messages\\LogEventMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:26:58.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherAlertMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\WeatherAlertMessage.cs",
+              "RelativeDocumentMoniker": "Messages\\WeatherAlertMessage.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\WeatherAlertMessage.cs",
+              "RelativeToolTip": "Messages\\WeatherAlertMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:26:25.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRegisteredMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\UserRegisteredMessage.cs",
+              "RelativeDocumentMoniker": "Messages\\UserRegisteredMessage.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Messages\\UserRegisteredMessage.cs",
+              "RelativeToolTip": "Messages\\UserRegisteredMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T02:25:55.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RateLimitController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\RateLimitController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RateLimitController.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\RateLimitController.cs",
+              "RelativeToolTip": "Controllers\\RateLimitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T22:12:44.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\WeatherService.cs",
+              "RelativeToolTip": "Services\\WeatherService.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAiwA8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:48:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherEmergencyAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
+              "RelativeDocumentMoniker": "WeatherEmergencyAPI.csproj",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj*",
+              "RelativeToolTip": "WeatherEmergencyAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T23:50:42.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:49:19.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IWeatherService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IWeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:47:38.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T00:04:31.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RateLimitMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Middleware\\RateLimitMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\RateLimitMiddleware.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Middleware\\RateLimitMiddleware.cs",
+              "RelativeToolTip": "Middleware\\RateLimitMiddleware.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T22:11:25.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RateLimitStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\RateLimitStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RateLimitStatusDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\RateLimitStatusDto.cs",
+              "RelativeToolTip": "DTOs\\RateLimitStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T22:12:01.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Weather\\WeatherResponseDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherResponseDto.cs",
+              "RelativeToolTip": "DTOs\\Weather\\WeatherResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:40:39.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherAlertDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherAlertDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Weather\\WeatherAlertDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherAlertDto.cs",
+              "RelativeToolTip": "DTOs\\Weather\\WeatherAlertDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:40:02.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecastDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherForecastDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Weather\\WeatherForecastDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherForecastDto.cs",
+              "RelativeToolTip": "DTOs\\Weather\\WeatherForecastDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:39:25.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CurrentWeatherDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\CurrentWeatherDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Weather\\CurrentWeatherDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\CurrentWeatherDto.cs",
+              "RelativeToolTip": "DTOs\\Weather\\CurrentWeatherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:38:45.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WeatherRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Weather\\WeatherRequestDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Weather\\WeatherRequestDto.cs",
+              "RelativeToolTip": "DTOs\\Weather\\WeatherRequestDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T21:38:06.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "HealthController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\HealthController.cs",
               "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
@@ -194,12 +560,11 @@
               "RelativeToolTip": "Controllers\\HealthController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAowEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:46:19.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T16:46:19.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "WeatherEmergencyAPI",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
               "RelativeDocumentMoniker": "WeatherEmergencyAPI.csproj",
@@ -210,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "ErrorResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\ErrorResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ErrorResponseDto.cs",
@@ -222,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 27,
               "Title": "EmergencyContactsController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\EmergencyContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmergencyContactsController.cs",
@@ -234,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
               "Title": "LocationsController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\LocationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\LocationsController.cs",
@@ -246,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 26,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -258,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 29,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -270,19 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAiwIgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T00:14:46.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 30,
               "Title": "EmergencyContactService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\EmergencyContactService.cs",
               "RelativeDocumentMoniker": "Services\\EmergencyContactService.cs",
@@ -294,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 31,
               "Title": "IEmergencyContactService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IEmergencyContactService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IEmergencyContactService.cs",
@@ -306,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 32,
               "Title": "LocationService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\LocationService.cs",
               "RelativeDocumentMoniker": "Services\\LocationService.cs",
@@ -318,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "ILocationService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\ILocationService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ILocationService.cs",
@@ -330,19 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAcwJEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T16:23:23.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Services\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
@@ -354,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "CountryService.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Utils\\CountryService.cs",
               "RelativeDocumentMoniker": "Utils\\CountryService.cs",
@@ -366,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 36,
               "Title": "EmergencyContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\EmergencyContactRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\EmergencyContactRepository.cs",
@@ -378,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 37,
               "Title": "IEmergencyContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\Interfaces\\IEmergencyContactRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IEmergencyContactRepository.cs",
@@ -390,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 38,
               "Title": "LocationRepositor.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\LocationRepositor.cs",
               "RelativeDocumentMoniker": "Repositories\\LocationRepositor.cs",
@@ -402,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 39,
               "Title": "ILocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\Interfaces\\ILocationRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ILocationRepository.cs",
@@ -414,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -426,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
@@ -438,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BaseRepository.cs",
@@ -450,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Repositories\\Interfaces\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IBaseRepository.cs",
@@ -462,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Configurations\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "Configurations\\AutoMapperProfile.cs",
@@ -474,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 45,
               "Title": "EmergencyContactResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\EmergencyContact\\EmergencyContactResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\EmergencyContact\\EmergencyContactResponseDto.cs",
@@ -486,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 46,
               "Title": "CreateEmergencyContactDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\EmergencyContact\\CreateEmergencyContactDto.cs",
               "RelativeDocumentMoniker": "DTOs\\EmergencyContact\\CreateEmergencyContactDto.cs",
@@ -498,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 49,
               "Title": "CreateLocationDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Location\\CreateLocationDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Location\\CreateLocationDto.cs",
@@ -510,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 50,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\User\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\LoginResponseDto.cs",
@@ -522,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "LocationResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Location\\LocationResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Location\\LocationResponseDto.cs",
@@ -534,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 51,
               "Title": "UserResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\User\\UserResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\UserResponseDto.cs",
@@ -546,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 52,
               "Title": "UpdatePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\User\\UpdatePasswordDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\UpdatePasswordDto.cs",
@@ -558,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 53,
               "Title": "LoginUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\User\\LoginUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\LoginUserDto.cs",
@@ -570,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 48,
               "Title": "UpdateLocationDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\Location\\UpdateLocationDto.cs",
               "RelativeDocumentMoniker": "DTOs\\Location\\UpdateLocationDto.cs",
@@ -582,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 54,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\DTOs\\User\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\User\\CreateUserDto.cs",
@@ -594,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 60,
               "Title": "20250530003039_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Migrations\\20250530003039_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250530003039_InitialCreate.cs",
@@ -606,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 56,
               "Title": "20250530002430_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Migrations\\20250530002430_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250530002430_InitialCreate.cs",
@@ -618,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 55,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -630,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 57,
               "Title": "EmergencyContact.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\EmergencyContact.cs",
               "RelativeDocumentMoniker": "Models\\EmergencyContact.cs",
@@ -642,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 58,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\Location.cs",
               "RelativeDocumentMoniker": "Models\\Location.cs",
@@ -654,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 59,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -663,30 +1004,6 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAAACUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T00:10:53.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-30T00:04:31.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "WeatherEmergencyAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
-              "RelativeDocumentMoniker": "WeatherEmergencyAPI.csproj",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
-              "RelativeToolTip": "WeatherEmergencyAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-29T23:50:42.906Z"
             }
           ]
         }

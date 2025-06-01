@@ -84,7 +84,7 @@ namespace WeatherEmergencyAPI.Services
             dynamic data = JsonConvert.DeserializeObject(json)!;
 
             var forecasts = new List<WeatherForecastDto>();
-            var dailyData = new Dictionary<string, dynamic>();
+            var dailyData = new Dictionary<string, DailyWeatherData>();
 
             // Agrupar por dia
             foreach (var item in data.list)
@@ -94,42 +94,44 @@ namespace WeatherEmergencyAPI.Services
 
                 if (!dailyData.ContainsKey(dateKey))
                 {
-                    dailyData[dateKey] = new
+                    dailyData[dateKey] = new DailyWeatherData
                     {
-                        temps = new List<double>(),
-                        descriptions = new List<string>(),
-                        icons = new List<string>(),
-                        rain = new List<double>(),
-                        date = dt.Date
+                        Date = dt.Date,
+                        Temps = new List<double>(),
+                        Descriptions = new List<string>(),
+                        Icons = new List<string>(),
+                        Rain = new List<double>()
                     };
                 }
 
-                dailyData[dateKey].temps.Add((double)item.main.temp);
-                dailyData[dateKey].descriptions.Add((string)item.weather[0].description);
-                dailyData[dateKey].icons.Add((string)item.weather[0].icon);
+                dailyData[dateKey].Temps.Add((double)item.main.temp);
+                dailyData[dateKey].Descriptions.Add((string)item.weather[0].description);
+                dailyData[dateKey].Icons.Add((string)item.weather[0].icon);
 
                 if (item.rain != null && item.rain["3h"] != null)
                 {
-                    dailyData[dateKey].rain.Add((double)item.rain["3h"]);
+                    dailyData[dateKey].Rain.Add((double)item.rain["3h"]);
                 }
             }
 
             // Criar previsões diárias (próximos 6 dias)
-            int count = 0;
             foreach (var day in dailyData.Values.Skip(1).Take(6))
             {
                 var forecast = new WeatherForecastDto
                 {
-                    Date = day.date,
-                    TemperatureMin = day.temps.Min(),
-                    TemperatureMax = day.temps.Max(),
-                    Description = day.descriptions.GroupBy(x => x).OrderByDescending(g => g.Count()).First().Key,
-                    Icon = $"https://openweathermap.org/img/w/{day.icons.GroupBy(x => x).OrderByDescending(g => g.Count()).First().Key}.png",
-                    ChanceOfRain = day.rain.Count > 0 ? (day.rain.Count / (double)day.temps.Count) * 100 : 0
+                    Date = day.Date,
+                    TemperatureMin = day.Temps.Min(),
+                    TemperatureMax = day.Temps.Max(),
+                    Description = day.Descriptions
+                        .GroupBy(x => x)
+                        .OrderByDescending(g => g.Count())
+                        .First()
+                        .Key,
+                    Icon = $"https://openweathermap.org/img/w/{day.Icons.GroupBy(x => x).OrderByDescending(g => g.Count()).First().Key}.png",
+                    ChanceOfRain = day.Rain.Count > 0 ? (day.Rain.Count / (double)day.Temps.Count) * 100 : 0
                 };
 
                 forecasts.Add(forecast);
-                count++;
             }
 
             // Cache por 1 hora
@@ -255,6 +257,16 @@ namespace WeatherEmergencyAPI.Services
             }
 
             return "BR";
+        }
+
+        // Classe auxiliar para evitar problemas com dynamic
+        private class DailyWeatherData
+        {
+            public DateTime Date { get; set; }
+            public List<double> Temps { get; set; } = new();
+            public List<string> Descriptions { get; set; } = new();
+            public List<string> Icons { get; set; } = new();
+            public List<double> Rain { get; set; } = new();
         }
     }
 }
