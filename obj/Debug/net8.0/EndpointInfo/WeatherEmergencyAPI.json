@@ -1234,6 +1234,158 @@
         }
       }
     },
+    "/api/MLPrediction/predict-disaster": {
+      "post": {
+        "tags": [
+          "MLPrediction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisasterPredictionRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisasterPredictionRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DisasterPredictionRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DisasterPredictionResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DisasterPredictionResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DisasterPredictionResponseDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MLPrediction/detect-anomaly": {
+      "post": {
+        "tags": [
+          "MLPrediction"
+        ],
+        "parameters": [
+          {
+            "name": "currentValue",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "float"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/WeatherAnomalyData"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/WeatherAnomalyData"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/WeatherAnomalyData"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MLPrediction/model-info": {
+      "get": {
+        "tags": [
+          "MLPrediction"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": { }
+              },
+              "application/json": {
+                "schema": { }
+              },
+              "text/json": {
+                "schema": { }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/RateLimit/status": {
       "get": {
         "tags": [
@@ -1981,6 +2133,86 @@
         },
         "additionalProperties": false
       },
+      "DisasterPredictionRequestDto": {
+        "required": [
+          "humidity",
+          "precipitation",
+          "pressure",
+          "temperature",
+          "windSpeed"
+        ],
+        "type": "object",
+        "properties": {
+          "temperature": {
+            "maximum": 60,
+            "minimum": -50,
+            "type": "number",
+            "format": "float"
+          },
+          "humidity": {
+            "maximum": 100,
+            "minimum": 0,
+            "type": "number",
+            "format": "float"
+          },
+          "pressure": {
+            "maximum": 1050,
+            "minimum": 950,
+            "type": "number",
+            "format": "float"
+          },
+          "windSpeed": {
+            "maximum": 300,
+            "minimum": 0,
+            "type": "number",
+            "format": "float"
+          },
+          "precipitation": {
+            "maximum": 500,
+            "minimum": 0,
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DisasterPredictionResponseDto": {
+        "type": "object",
+        "properties": {
+          "hasHighRisk": {
+            "type": "boolean"
+          },
+          "riskProbability": {
+            "type": "number",
+            "format": "float"
+          },
+          "riskLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "recommendation": {
+            "type": "string",
+            "nullable": true
+          },
+          "potentialHazards": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "predictionTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "links": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "EmergencyContactResponseDto": {
         "type": "object",
         "properties": {
@@ -2296,6 +2528,20 @@
               "type": "string"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherAnomalyData": {
+        "type": "object",
+        "properties": {
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "value": {
+            "type": "number",
+            "format": "float"
           }
         },
         "additionalProperties": false

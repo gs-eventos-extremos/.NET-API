@@ -13,6 +13,7 @@ using WeatherEmergencyAPI.Repositories;
 using WeatherEmergencyAPI.Repositories.Interfaces;
 using WeatherEmergencyAPI.Services;
 using WeatherEmergencyAPI.Services.Interfaces;
+using WeatherEmergencyAPI.ML;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,6 +49,9 @@ builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 
 // Configurar HttpClient para Weather Service
 builder.Services.AddHttpClient<IWeatherService, WeatherService>();
+
+// Registrar ML Service
+builder.Services.AddSingleton<MLModelService>();
 
 // Configurar MassTransit e RabbitMQ
 builder.Services.AddMassTransit(x =>

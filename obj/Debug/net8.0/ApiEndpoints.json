@@ -150,6 +150,92 @@
     ]
   },
   {
+    "ContainingType": "WeatherEmergencyAPI.Controllers.MLPredictionController",
+    "Method": "DetectAnomaly",
+    "RelativePath": "api/MLPrediction/detect-anomaly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historicalData",
+        "Type": "System.Collections.Generic.List\u00601[[WeatherEmergencyAPI.ML.Models.WeatherAnomalyData, WeatherEmergencyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "currentValue",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherEmergencyAPI.Controllers.MLPredictionController",
+    "Method": "GetModelInfo",
+    "RelativePath": "api/MLPrediction/model-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherEmergencyAPI.Controllers.MLPredictionController",
+    "Method": "PredictDisasterRisk",
+    "RelativePath": "api/MLPrediction/predict-disaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WeatherEmergencyAPI.DTOs.ML.DisasterPredictionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherEmergencyAPI.DTOs.ML.DisasterPredictionResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
     "ContainingType": "WeatherEmergencyAPI.Controllers.RateLimitController",
     "Method": "GetRateLimitRules",
     "RelativePath": "api/RateLimit/rules",
