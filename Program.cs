@@ -9,11 +9,11 @@ using WeatherEmergencyAPI.Consumers;
 using WeatherEmergencyAPI.Data;
 using WeatherEmergencyAPI.Configurations;
 using WeatherEmergencyAPI.Middleware;
+using WeatherEmergencyAPI.ML;
 using WeatherEmergencyAPI.Repositories;
 using WeatherEmergencyAPI.Repositories.Interfaces;
 using WeatherEmergencyAPI.Services;
 using WeatherEmergencyAPI.Services.Interfaces;
-using WeatherEmergencyAPI.ML;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +45,7 @@ builder.Services.AddScoped<IEmergencyContactRepository, EmergencyContactReposito
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddScoped<IEmergencyContactService, EmergencyContactService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 
 // Configurar HttpClient para Weather Service
@@ -126,7 +127,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "Weather Emergency API",
         Version = "v1",
-        Description = "API para gerenciamento de alertas climáticos e contatos de emergência com RabbitMQ",
+        Description = "API para gerenciamento de alertas climáticos e contatos de emergência com RabbitMQ e ML.NET",
         Contact = new OpenApiContact
         {
             Name = "Seu Nome",

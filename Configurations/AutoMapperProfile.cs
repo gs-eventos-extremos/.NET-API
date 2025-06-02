@@ -13,6 +13,8 @@ namespace WeatherEmergencyAPI.Configurations
             // User Mappings
             CreateMap<CreateUserDto, User>();
             CreateMap<User, UserResponseDto>();
+            CreateMap<UpdateUserDto, User>()  // ADICIONE ESTA LINHA
+                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
 
             // Location Mappings
             CreateMap<CreateLocationDto, Location>();
