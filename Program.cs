@@ -52,7 +52,12 @@ builder.Services.AddScoped<IMessageBusService, MessageBusService>();
 builder.Services.AddHttpClient<IWeatherService, WeatherService>();
 
 // Registrar ML Service
-builder.Services.AddSingleton<MLModelService>();
+builder.Services.AddSingleton<MLModelService>(provider =>
+{
+    var logger = provider.GetRequiredService<ILogger<MLModelService>>();
+    var environment = provider.GetRequiredService<IWebHostEnvironment>();
+    return new MLModelService(logger, environment);
+});
 
 // Configurar MassTransit e RabbitMQ
 builder.Services.AddMassTransit(x =>
@@ -181,8 +186,19 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Weather Emergency API v1");
-        options.RoutePrefix = string.Empty; // Swagger na raiz
+        options.RoutePrefix = "swagger";
         options.DocumentTitle = "Weather Emergency API - Documentação";
+    });
+
+    // Adicionar redirecionamento de /swagger para /swagger/index.html
+    app.Use(async (context, next) =>
+    {
+        if (context.Request.Path == "/swagger")
+        {
+            context.Response.Redirect("/swagger/index.html", permanent: false);
+            return;
+        }
+        await next();
     });
 }
 
