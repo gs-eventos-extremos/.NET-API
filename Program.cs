@@ -19,6 +19,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+// Adicionar CORS - IMPORTANTE: deve ser um dos primeiros services
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("ReactNativePolicy",
+        policy => policy
+            .AllowAnyOrigin()    // Permite qualquer origem
+            .AllowAnyMethod()    // Permite GET, POST, PUT, DELETE, etc.
+            .AllowAnyHeader()    // Permite qualquer header
+            .WithExposedHeaders("X-Rate-Limit-Limit", "X-Rate-Limit-Remaining", "X-Rate-Limit-Reset")); // Expõe headers de rate limit
+});
+
+// Para desenvolvimento, aceitar conexões de qualquer IP
+if (builder.Environment.IsDevelopment())
+{
+    builder.WebHost.UseUrls("http://0.0.0.0:5165", "https://0.0.0.0:7013");
+}
+
 // Configurar Rate Limiting
 builder.Services.AddMemoryCache();
 builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
@@ -202,7 +219,14 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
+// IMPORTANTE: Em desenvolvimento, comentar UseHttpsRedirection para facilitar React Native
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
+
+// Adicionar CORS - IMPORTANTE: deve vir ANTES de Authentication
+app.UseCors("ReactNativePolicy");
 
 // Adicionar Rate Limiting ANTES da autenticação
 app.UseIpRateLimiting();
@@ -213,5 +237,23 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Adicionar endpoint de teste para verificar se API está acessível
+if (app.Environment.IsDevelopment())
+{
+    app.MapGet("/", () => Results.Ok(new
+    {
+        message = "Weather Emergency API está rodando!",
+        environment = app.Environment.EnvironmentName,
+        timestamp = DateTime.UtcNow,
+        endpoints = new
+        {
+            swagger = "/swagger",
+            health = "/api/health",
+            register = "/api/auth/register",
+            login = "/api/auth/login"
+        }
+    })).ExcludeFromDescription();
+}
 
 app.Run();

@@ -6289,11 +6289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
+      "projectUniqueName": "C:\\.NET-API\\WeatherEmergencyAPI.csproj",
       "projectName": "WeatherEmergencyAPI",
-      "projectPath": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\WeatherEmergencyAPI.csproj",
+      "projectPath": "C:\\.NET-API\\WeatherEmergencyAPI.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\source\\repos\\WeatherEmergencyAPI\\obj\\",
+      "outputPath": "C:\\.NET-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
