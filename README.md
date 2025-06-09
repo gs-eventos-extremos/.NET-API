@@ -567,4 +567,8 @@ az webapp up --name weather-emergency-api --resource-group rg-weather
   }
 }
 ```
-
+## 👥 Grupo
+- **Nome:** Gustavo Araújo Maia **RM:** 553270
+- **Nome:** Rafael Vida Fernandes **RM:** 553721
+- **Nome:** Kauã Almeida Silveira **RM:** 552618
+- **Turma:** 2TDSPS
